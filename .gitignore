@@ -9,6 +9,7 @@
 # - macOS
 # - Windows
 
+/src/
 
 # Data
 /data/
