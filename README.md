@@ -46,25 +46,26 @@ Still need to create a function to pull out recommendations for a user via an in
 # Project Organization
 
 ```
-📦recommendation-systems-project    <- GitHub repository
+📦recommendation-system                         <- GitHub repository
 │
-├── 📜 README.md          <- The top-level README for this project.
+├── 📜 README.md                                <- The top-level README for this project.
 ├── 📂 data
-│   ├── 📂 external       <- Data from third party sources.
-│   ├── 📂 interim        <- Intermediate data that's been transformed.
-│   ├── 📂 processed      <- The final, canonical data sets for modeling.
-│   └── 📂 raw            <- The original, immutable data dump.
+│   ├── 📂 external                             <- Data from third party sources.
+│   ├── 📂 interim                              <- Intermediate data that's been transformed.
+│   ├── 📂 processed                            <- The final, canonical data sets for modeling.
+│   └── 📂 raw                                  <- The original, immutable data dump.
 │
-├── 📂 models             <- Trained and serialized models, model predictions, or model summaries
+├── 📂 models                                   <- Trained and serialized models, model predictions, or model summaries
 │
-├── 📂 notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering)
+├── 📂 notebooks                                <- Jupyter notebooks. Naming convention is a number (for ordering)
+│   └── 📜  1.0-bk-project-notebook.ipynb       <- The original, immutable data dump.
 │
-├── 📂 references         <- Data dictionaries, manuals, and all other explanatory materials.
+├── 📂 references                               <- Data dictionaries, manuals, and all other explanatory materials.
 │
-├── 📂 reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── 📂 figures        <- Generated graphics and figures to be used in reporting
+├── 📂 reports                                  <- Generated analysis as HTML, PDF, LaTeX, etc.
+│   └── 📂 figures                              <- Generated graphics and figures.
 │
-└── 📜 requirements.txt   <- The requirements file for reproducing the analysis environment,
+└── 📜 requirements.txt                         <- Requirements file for reproducing the analysis environment.
 ```
 <!-- 
 │ e.g.
